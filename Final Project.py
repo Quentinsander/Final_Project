@@ -20,7 +20,7 @@ print('Age:', age)
 
 sum = 0
 
-for i in range(5):
+for i in range(3):
     enter_a_num = int(input("your fastest throws for 3 year:"))
     sum = sum + enter_a_num
 
@@ -30,6 +30,35 @@ print("The Sum Of Your Number Is: " + str(sum))
 
 while True:
     speed_of_ball = int(input("speed of ball for your age:"))
+    if speed_of_ball > 60:
+        print("That is to fast " + "\n")
+    elif speed_of_ball < 55:
+        print("That is way to slow", "\n")
+    else:
+        print("That is perfect for your age", "\n")
+        break
+
+print("Hooray, You Found The Perfect speed")
+
+try:
+    my_num = int(input('Enter a Speed: '))
+    print('Your number:', my_num)
+except ValueError:
+    print('\n''That was not a Speed, (: ')
+
+
+sum = 0
+
+for i in range(3):
+    enter_a_num = int(input("your fastest pass or swing for 3 year:"))
+    sum = sum + enter_a_num
+
+print("")
+
+print("The Sum Of Your Number Is: " + str(sum))
+
+while True:
+    speed_of_ball = int(input("speed for your age:"))
     if speed_of_ball > 60:
         print("That is to fast " + "\n")
     elif speed_of_ball < 55:
@@ -110,4 +139,4 @@ def print_multiple_times(string, times):
   print(string)
 
 
-print_multiple_times('Hey there Baseball Player', 1)
+print_multiple_times('Hey there sports Player you will do great in your sport', 1)
