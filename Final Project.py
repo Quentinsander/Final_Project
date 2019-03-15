@@ -4,6 +4,16 @@
 
 #Quentin Sander
 
+try:
+    age = int(input('Enter Your Age:'))
+
+except ValueError:
+    print('\n''That was not an integer for your age')
+
+print('\n''Name:', name)
+print('Age:', age)
+
+
 sum = 0
 
 for i in range(5):
@@ -24,13 +34,13 @@ while True:
         print("That is perfect for your age", "\n")
         break
 
-print("Hooray, You Found The Perfect Bike Frame Size")
+print("Hooray, You Found The Perfect speed")
 
 try:
-    my_num = int(input('Enter an integer: '))
+    my_num = int(input('Enter a Speed: '))
     print('Your number:', my_num)
 except ValueError:
-    print('\n''That was not an integer, (: ')
+    print('\n''That was not a Speed, (: ')
 
 name = input('Enter Name:')
 
@@ -48,7 +58,7 @@ print('Age:', age)
 
 my_number = 10
 
-print ("Guess a number between 1 and 10")
+print ("Guess how good you are")
 print("")
 
 guess = int(input("Enter a guess:"))
@@ -59,7 +69,7 @@ while guess != my_number:
     guess = int(input("Enter a guess: "))
 
 print("")
-print ("Good jod, you got it!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+print ("Good jod, you got it you are a pro!")
 
 
 
@@ -82,8 +92,6 @@ def name_and_age(name, age):
  print('\n', 'Hi, my name is', name, 'and I am', str(age), 'years old!')
 
 
-name_and_age('Mike', 33)
-name_and_age('Zane', 18)
 
 
 
@@ -110,4 +118,4 @@ def print_multiple_times(string, times):
   print(string)
 
 
-print_multiple_times('Hey there Computer Scientist', 1)
+print_multiple_times('Hey there Baseball Player', 1)
