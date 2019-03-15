@@ -4,6 +4,10 @@
 
 #Quentin Sander
 
+name = input('Enter Name:')
+
+age = -1
+
 try:
     age = int(input('Enter Your Age:'))
 
@@ -42,18 +46,6 @@ try:
 except ValueError:
     print('\n''That was not a Speed, (: ')
 
-name = input('Enter Name:')
-
-age = -1
-
-try:
-    age = int(input('Enter Your Age:'))
-
-except ValueError:
-    print('\n''That was not an integer for your age')
-
-print('\n''Name:', name)
-print('Age:', age)
 
 
 my_number = 10
