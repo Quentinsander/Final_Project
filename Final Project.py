@@ -1,8 +1,9 @@
 
-
 #3.7.19
 
 #Quentin Sander
+
+#Ask for name and age and find good speed for there age
 
 name = input('Enter Name:')
 
@@ -20,6 +21,7 @@ print('Age:', age)
 
 sum = 0
 
+#Here you say what your fastest throws from the past 3 years
 for i in range(3):
     enter_a_num = int(input("your fastest throws for 3 year:"))
     sum = sum + enter_a_num
@@ -28,6 +30,7 @@ print("")
 
 print("The Sum Of Your Number Is: " + str(sum))
 
+#Speed of the ball compared to your age
 while True:
     speed_of_ball = int(input("speed of ball for your age:"))
     if speed_of_ball > 60:
@@ -47,6 +50,7 @@ except ValueError:
     print('\n''That was not a Speed, (: ')
 
 
+#Here you are giting info about fastest pass and or hit
 sum = 0
 
 for i in range(3):
@@ -100,13 +104,13 @@ while x > 5:
     print(x)
     x = x - 2
 
-
-    def print_number(x):
+#The years that you plaed in for your age
+    def print_league_year(x):
      print(x)
 print('\n', x)
 
-print_number(13)
-print_number(23)
+print_league_year(13)
+print_league_year(23)
 
 
 def name_and_age(name, age):
@@ -115,14 +119,13 @@ def name_and_age(name, age):
 
 
 
+def print_two_years(x, y=20):
+ print('First Year:', x)
+ print('Second Year: ' + str(y))
 
-def print_two_number(x, y=20):
- print('First number:', x)
- print('Second number: ' + str(y))
 
-
-print_two_number(34, 45)
-print_two_number(78)
+print_two_years(34, 45)
+print_two_years(78)
 
 
 
@@ -140,3 +143,8 @@ def print_multiple_times(string, times):
 
 
 print_multiple_times('Hey there sports Player you will do great in your sport', 1)
+
+'''
+In this code I made it help sport players find there averages and to find how good they are compared to their
+age this code will help people practes on the parts that they need to get better at for the League.
+'''
