@@ -21,7 +21,7 @@ print('Age:', age)
 sum = 0
 
 for i in range(5):
-    enter_a_num = int(input("your fastest throw for evrey year:"))
+    enter_a_num = int(input("your fastest throws for 3 year:"))
     sum = sum + enter_a_num
 
 print("")
